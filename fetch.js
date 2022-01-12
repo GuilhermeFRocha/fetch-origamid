@@ -105,4 +105,85 @@
 //   })
 // }
 
+                      // API GITHUB
 
+// function dadosapi () {
+//   fetch('https://api.github.com/users/GuilhermeFRocha').then(response =>{
+//     response.json().then((result) =>{
+//       input.innerText = result['bio'];
+
+//       repo.innerText = result['public_repos'];
+//     })
+//   })
+// }
+
+// dadosapi()
+
+// const imagem = fetch('https://api.github.com/users/GuilhermeFRocha')
+
+// imagem.then(resolucao =>{
+//     return resolucao.json();
+//   }).then(body => {
+//     const blobUrl = body['avatar_url']
+//     const imagemDom = document.querySelector('#imagem')
+//     imagemDom.src = blobUrl
+// })
+
+                    // Metodo POST
+
+// const url = 'https://jsonplaceholder.typicode.com/posts'
+// const options= {
+//   method: 'POST',
+//   body:  '{"title": "JavaScript"}',
+//   headers: {
+//     "Content-Type": "application/json; charset=utf-8"
+//   }
+// }
+
+// fetch(url,options)
+// .then(response =>{
+//       response.json().then((result) =>{
+//         console.log(result);
+//     })
+//        })
+     
+
+                  // Metodo PUT
+
+// const url = 'https://jsonplaceholder.typicode.com/posts'
+// const options= {
+//   method: 'PUT',
+//   body:  '{"title": "JavaScript"}',
+//   headers: {
+//     "Content-Type": "application/json; charset=utf-8"
+//   }
+// }
+
+// fetch(url,options)
+// .then(response =>{
+//       response.json().then((result) =>{
+//         console.log(result);
+//     })
+//        })
+     
+
+// const nomeGit = document.querySelector('#git')
+// const btnCep = document.getElementById('btncep')
+// const resultadoGit = document.querySelector('.resultadoGit')
+                  
+// btnCep.addEventListener('click', (event) => {
+//   event.preventDefault()
+//   const git = nomeGit.value
+//   buscagit(git)
+// })
+
+// function buscagit(git) {
+//   fetch (`https://api.github.com/users/${git}`)
+//   .then(resolucao => {
+//     return  resolucao.json().then((json) => {
+//       resultadoGit.innerText = json['name']
+//       const imagemDom = document.querySelector('#imagem')
+//       imagemDom.src = json['avatar_url']    
+//     })
+//   })
+// }
