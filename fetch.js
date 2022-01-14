@@ -167,6 +167,9 @@
 //        })
      
 
+
+
+
 // const nomeGit = document.querySelector('#git')
 // const btnCep = document.getElementById('btncep')
 // const resultadoGit = document.querySelector('.resultadoGit')
@@ -187,3 +190,44 @@
 //     })
 //   })
 // }
+
+// const search = document.querySelector('#search');
+// const btnPesquisar = document.querySelector('.btn-pesquisar');
+// const profile = document.querySelector('#profile');
+// const url = "https://api.github.com/users";
+// const clientId = "Iv1.605aa82ec869c550";
+// const clientSecret = "41ce6590beedb5c0b01b4b0157faf52809858b37";
+// const count = 7;
+// const sort = "creatd: asc"
+
+// async function getUser(user) {
+
+//     try {
+//         const profileResponse = await fetch(`${url}/${user}?clientI_id=${clientId}&client_secret=${clientSecret}`);
+//         const repositorioResponse = await fetch(`${url}/${user}/repos?per_page=${count}&${sort}&clientI_id=${clientId}&client_secret=${clientSecret}`);
+
+//         const profile = await (await profileResponse.json());
+//         const repositorios = await (await repositorioResponse.json());
+//         console.log(profile);
+
+//         return { profile, repositorios };
+
+//     } catch (erro) {
+//         console.log(erro)
+//     }
+// }
+
+
+//  async function dadosapi (nome) {
+//  const resposta = await fetch(`https://api.github.com/users/${nome}`)
+//  const respostajson = await resposta.json()
+
+//  console.log(respostajson);
+//       document.body.innerText = respostajson.bio
+
+//       repo.innerText = result['public_repos'];
+//     }
+  
+
+
+// dadosapi()
