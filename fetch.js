@@ -227,7 +227,57 @@
 
 //       repo.innerText = result['public_repos'];
 //     }
-  
 
 
 // dadosapi()
+
+  
+// var text = document.querySelector('.text')
+// var seguidores = document.querySelector('.seguidores')
+// var seguindo = document.querySelector('.seguindo')
+// var repo = document.querySelector('.repo')
+// var roc = document.querySelector('.roc')
+// var local = document.querySelector('.local')
+// var imagem = document.querySelector('img')
+// var btn = document.querySelector('.btn')
+// var card = document.querySelector('.card')
+
+
+
+
+// async function dadosapi () {
+//   const resposta = await fetch ('https://api.github.com/users/GuilhermeFRocha')
+//   const respostaJson = await resposta.json()
+//   console.log(respostaJson);
+
+  
+//  imagem.src = respostaJson['avatar_url']
+  
+//   text.innerText = respostaJson[`login`]
+//   seguidores.innerText = respostaJson['followers']
+//   seguindo.innerText = respostaJson['following']
+//   repo.innerText = respostaJson['public_repos']
+  
+ 
+// }
+
+// dadosapi()
+
+ 
+
+//   btn.addEventListener('click', ()=> {
+//     getRandomColor()
+//   })
+
+
+//   function getRandomColor() {
+//     var letters = "0123456789ABCDEF";
+//     var randomColor = "#";
+//     for (var i = 0; i < 6; i++) {
+//       randomColor += letters[Math.floor(Math.random() * letters.length)];
+//     }
+//     document.body.style.backgroundColor = randomColor;
+//   }
+
+
+	
